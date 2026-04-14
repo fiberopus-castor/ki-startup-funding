@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Login — KI-Startup Praesentation</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'Calibri','Segoe UI',sans-serif; background:#1A3C5E; display:flex; align-items:center; justify-content:center; min-height:100vh; }
+.login-box { background:white; border-radius:12px; padding:2.5em; width:360px; box-shadow:0 8px 32px rgba(0,0,0,0.3); }
+h1 { color:#1A3C5E; font-size:1.3em; margin-bottom:0.3em; }
+p { color:#6C757D; font-size:0.85em; margin-bottom:1.5em; }
+input { width:100%; padding:0.7em; border:2px solid #E9ECEF; border-radius:6px; font-size:1em; margin-bottom:0.8em; }
+input:focus { outline:none; border-color:#2E86AB; }
+button { width:100%; padding:0.7em; background:#2E86AB; color:white; border:none; border-radius:6px; font-size:1em; font-weight:700; cursor:pointer; }
+button:hover { background:#1A3C5E; }
+.error { color:#DC3545; font-size:0.85em; display:none; margin-bottom:0.8em; }
+</style>
+</head>
+<body>
+<div class="login-box">
+<h1>KI-Startup Gruendung</h1>
+<p>Finanzierungs- &amp; Foerderuebersicht</p>
+<div class="error" id="err">Falsches Passwort.</div>
+<input type="text" id="user" placeholder="Benutzer" autofocus>
+<input type="password" id="pass" placeholder="Passwort" onkeydown="if(event.key==='Enter')login()">
+<button onclick="login()">Einloggen</button>
+</div>
+<script>
+function login(){
+  var u=document.getElementById('user').value;
+  var p=document.getElementById('pass').value;
+  if(u==='1234'&&p==='1234'){
+    sessionStorage.setItem('auth','ok');
+    window.location.href='praesentation.html';
+  } else {
+    document.getElementById('err').style.display='block';
+  }
+}
+// If already logged in, redirect
+if(sessionStorage.getItem('auth')==='ok') window.location.href='praesentation.html';
+</script>
+</body>
+</html>
