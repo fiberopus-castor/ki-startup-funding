@@ -108,6 +108,10 @@ tr.excluded{background:#fef2f2 !important;color:var(--slate500)}
 .big-num.green{color:var(--green)}.big-num.purple{color:var(--purple)}.big-num.blue{color:var(--blue)}.big-num.gray{color:var(--slate400)}
 .scenario ul{text-align:left;padding-left:1.2rem;font-size:.8rem;margin-top:.7rem;color:var(--slate700)}
 
+/* === TIMELINE LINKS === */
+.tl-items a{color:var(--blue)}
+.tl-items a:hover{color:var(--navy)}
+
 /* === FOOTER === */
 footer{background:var(--navy);color:var(--slate400);padding:2.5rem 2rem;text-align:center;font-size:.82rem;margin-top:3rem}
 footer strong{color:#fff}
@@ -144,8 +148,8 @@ footer strong{color:#fff}
 <div class="sub">Finanzierungs- &amp; Foerderuebersicht</div>
 <div class="meta">Percy von Oheimb-Loup &middot; 14. April 2026 &middot; Fuer Odo &amp; Dirk</div>
 <div class="stats">
-<div class="stat"><div class="stat-num">~824k</div><div class="stat-label">bei Gruendung</div></div>
-<div class="stat"><div class="stat-num">~1,14M</div><div class="stat-label">nach 12 Monaten</div></div>
+<div class="stat"><div class="stat-num">~800–850k</div><div class="stat-label">bei Gruendung</div></div>
+<div class="stat"><div class="stat-num">~1,1–1,2M</div><div class="stat-label">nach 12 Monaten</div></div>
 <div class="stat"><div class="stat-num">11</div><div class="stat-label">Programme kombiniert</div></div>
 <div class="stat"><div class="stat-num">0</div><div class="stat-label">Konflikte</div></div>
 </div>
@@ -160,7 +164,39 @@ footer strong{color:#fff}
 <div class="card green"><h4>Gruender</h4><p><strong>Percy von Oheimb-Loup</strong><br>M.Sc. Feb 2026 &mdash; Nachhaltiges Bauen &times; KI<br>Mitglied GF bioIP e.V. (seit 2020)<br>DigiKliMAP App + bioIP EMS entwickelt<br>Johanniterorden-Mitglied</p></div>
 <div class="card amber"><h4>Rechtsform &amp; Standort</h4><p><strong>GmbH-Gruendung:</strong> August 2026<br><strong>Sitz:</strong> NRW (Bonn/Rhein-Sieg)<br><strong>Stammkapital:</strong> 100.000 EUR (Eigenmittel)<br><strong>Hausbank:</strong> KSK Koeln</p></div>
 <div class="card teal"><h4>Markt &amp; Timing</h4><p>EU Carbon Removal Certification Framework (CRCF) tritt 2026 in Kraft. Gebaeudesektor = 36% der EU-CO&#x2082;-Emissionen. First-Mover-Vorteil: Wenige KI-basierte MRV-Loesungen am Markt.</p></div>
-</div></div>
+</div>
+
+<h3>Markt &amp; Zielgruppe</h3>
+<div class="cards">
+<div class="card"><h4>TAM / SAM / SOM</h4>
+<p><strong>TAM:</strong> Construction Tech global USD 164 Mrd. (2026), CAGR 7,9%</p>
+<p><strong>SAM DACH:</strong> EUR 15–30 Mio./Jahr (Baugutachter-Software)</p>
+<p><strong>SOM 3 Jahre:</strong> EUR 600k–1,0 Mio. ARR</p>
+</div>
+<div class="card teal"><h4>Zielgruppe</h4>
+<p><strong>~8.000–12.000 Baugutachter</strong> in Deutschland</p>
+<p><strong>~15.000–20.000 Bauingenieur-Bueros</strong> in Deutschland</p>
+<p>Beide Segmente arbeiten noch ueberwiegend manuell &mdash; hohes Digitalisierungspotenzial.</p>
+</div>
+</div>
+
+<h3>Wettbewerb &amp; USP</h3>
+<div class="cards">
+<div class="card"><h4>Wettbewerber</h4>
+<p><strong>T2D2</strong> (USA) &mdash; ab $99/Mon., Fassadeninspektion per KI</p>
+<p><strong>Inspekt AI</strong> (CH) &mdash; Gebaeudeschadenserkennung</p>
+<p><strong>PlanRadar</strong> (AT) &mdash; Baudokumentation, von Roper Technologies uebernommen</p>
+<p style="margin-top:.5rem;color:var(--red);font-weight:600">KEINER hat deutsche Normen (DIN, HOAI, GEG) + KI-Gutachtentextgenerierung.</p>
+</div>
+<div class="card green"><h4>USP</h4>
+<p><strong>Einzige KI-Loesung</strong> mit deutscher Normenkonformitaet (DIN 1076, HOAI, GEG) UND automatischer Gutachtenerstellung.</p>
+<p>Kombination aus <strong>Schadensanalyse per Computer Vision</strong> + <strong>normkonformer Textgenerierung</strong> = 30% Zeitersparnis, 50% Fehlerreduktion.</p>
+</div>
+</div>
+
+<h3>Exit-Perspektive</h3>
+<div class="alert alert-blue"><span class="alert-icon">&#128640;</span><div><strong>Trade Sale Jahr 5–7.</strong> Potenzielle Kaeufer: Nemetschek (DE, Bau-Software), Roper Technologies (USA, hat PlanRadar gekauft), Allianz/Zurich (Versicherungs-KI). Referenz: Tractable (UK) erreichte USD 1 Mrd. Bewertung mit KI-Schadensanalyse fuer Versicherungen.</div></div>
+</div>
 
 <div class="section" id="methodik"><h2>2. Methodik</h2><div class="section-line"></div>
 <div class="cards">
@@ -173,14 +209,14 @@ footer strong{color:#fff}
 <div class="section" id="programme"><h2>3. Ausgewaehlte Programme</h2><div class="section-line"></div>
 <div class="table-wrap"><table>
 <tr><th>#</th><th>Programm</th><th>Betrag</th><th>Typ</th><th>Warum gewaehlt?</th></tr>
-<tr><td>01</td><td>BAFA Beratungsfoerderung</td><td>1.750 EUR</td><td>Zuschuss</td><td>Sicher, schnell, keine Huerden</td></tr>
-<tr><td>02</td><td>MID-Gutschein NRW</td><td>bis 15.000 EUR</td><td>Zuschuss</td><td>Losverfahren, hohe Chance bei KI</td></tr>
-<tr><td>04</td><td>Buergschaftsbank NRW</td><td>250.000 EUR</td><td>Buergschaft</td><td>Express (5 Tage!), Voraussetzung fuer Darlehen</td></tr>
-<tr><td>05</td><td>KfW 077</td><td>175.000 EUR</td><td>Darlehen</td><td>100% BB-Garantie &mdash; Bank hat NULL Risiko</td></tr>
-<tr><td>06</td><td>NRW.BANK GuW</td><td>400.000 EUR</td><td>Darlehen</td><td>50% HF, bis 10 Mio. moeglich, Hauptdarlehen</td></tr>
-<tr><td>08</td><td>ZIM Einzelprojekt</td><td>~310.000 EUR</td><td>Zuschuss (AGVO)</td><td>Primaeres F&amp;E-Programm, ~50% Foerderquote</td></tr>
-<tr class="highlight"><td><strong>12</strong></td><td><strong>Gruendungszuschuss</strong> <span class="badge b-green">NEU</span></td><td><strong>~12&ndash;14k</strong></td><td><strong>Zuschuss</strong></td><td><strong>Steuerfrei, KEIN De-minimis, null Konflikte</strong></td></tr>
-<tr class="highlight"><td><strong>14</strong></td><td><strong>Mikromezzanine</strong> <span class="badge b-green">NEU</span></td><td><strong>100&ndash;150k</strong></td><td><strong>Stille Beteil.</strong></td><td><strong>Einziger EK-Ersatz seit KfW 058 weg</strong></td></tr>
+<tr><td>01</td><td><a href="https://www.bafa.de/DE/Wirtschafts_Mittelstandsfoerderung/Beratung_Finanzierung/Unternehmensberatung/unternehmensberatung_node.html" target="_blank">BAFA Beratungsfoerderung</a></td><td>1.750 EUR</td><td>Zuschuss</td><td>Sicher, schnell, keine Huerden</td></tr>
+<tr><td>02</td><td><a href="https://www.wirtschaft.nrw/mittelstand-innovativ-und-digital" target="_blank">MID-Gutschein NRW</a></td><td>bis 15.000 EUR</td><td>Zuschuss</td><td>Losverfahren, hohe Chance bei KI</td></tr>
+<tr><td>04</td><td><a href="https://www.bb-nrw.de/de/express-buergschaft.html" target="_blank">Buergschaftsbank NRW</a></td><td>250.000 EUR</td><td>Buergschaft</td><td>Express (5 Tage!), Voraussetzung fuer Darlehen</td></tr>
+<tr><td>05</td><td><a href="https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCndung-und-Nachfolge/F%C3%B6rderprodukte/ERP-F%C3%B6rderkredit-Gr%C3%BCndung-und-Nachfolge-(077)/" target="_blank">KfW 077</a></td><td>175.000 EUR</td><td>Darlehen</td><td>100% BB-Garantie &mdash; Bank hat NULL Risiko</td></tr>
+<tr><td>06</td><td><a href="https://www.nrwbank.de/de/foerderung/foerderprodukte/15119/nrwbank-gruendung-und-wachstum.html" target="_blank">NRW.BANK GuW</a></td><td>400.000 EUR</td><td>Darlehen</td><td>50% HF, bis 10 Mio. moeglich, Hauptdarlehen</td></tr>
+<tr><td>08</td><td><a href="https://www.zim.de" target="_blank">ZIM Einzelprojekt</a></td><td>~310.000 EUR</td><td>Zuschuss (AGVO)</td><td>Primaeres F&amp;E-Programm, ~50% Foerderquote</td></tr>
+<tr class="highlight"><td><strong>12</strong></td><td><strong><a href="https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/arbeitslosengeld/gruendungszuschuss-beantragen" target="_blank">Gruendungszuschuss</a></strong> <span class="badge b-green">NEU</span></td><td><strong>~12–14k</strong></td><td><strong>Zuschuss</strong></td><td><strong>Steuerfrei, KEIN De-minimis, null Konflikte</strong></td></tr>
+<tr class="highlight"><td><strong>14</strong></td><td><strong><a href="http://www.mikromezzaninfonds-deutschland.de/" target="_blank">Mikromezzanine</a></strong> <span class="badge b-green">NEU</span></td><td><strong>100–150k</strong></td><td><strong>Stille Beteil.</strong></td><td><strong>Einziger EK-Ersatz seit KfW 058 weg</strong></td></tr>
 </table></div>
 
 <h3>Warum genau diese beiden neuen Programme?</h3>
@@ -212,13 +248,13 @@ footer strong{color:#fff}
 
 <h3>Warum funktioniert unsere Kombination?</h3>
 <div class="cards">
-<div class="card green"><h4>KfW 077 + NRW.BANK GuW</h4><p>Explizit kombinierbar lt. GuW-Merkblatt S.2: <em>&bdquo;KfW-Mittel koennen zusaetzlich beantragt werden.&ldquo;</em></p></div>
-<div class="card green"><h4>Mikromezzanine + GuW</h4><p>Verschiedene Traeger (KBG vs. NRW.BANK), verschiedene Finanzierungsarten. Kein Ausschluss im Merkblatt.</p></div>
-<div class="card green"><h4>Gruendungszuschuss + alles</h4><p>Sozialleistung SGB III &mdash; keine EU-Beihilfe, nicht De-minimis. Kollidiert mit keinem Programm.</p></div>
-<div class="card green"><h4>ZIM (AGVO) + De-minimis</h4><p>ZIM = AGVO Art. 25. Kumulierung zulaessig (Art. 8 AGVO) bei getrennten Kostenpositionen.</p></div>
+<div class="card green"><h4><a href="https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCndung-und-Nachfolge/F%C3%B6rderprodukte/ERP-F%C3%B6rderkredit-Gr%C3%BCndung-und-Nachfolge-(077)/" target="_blank">KfW 077</a> + <a href="https://www.nrwbank.de/de/foerderung/foerderprodukte/15119/nrwbank-gruendung-und-wachstum.html" target="_blank">NRW.BANK GuW</a></h4><p>Explizit kombinierbar lt. GuW-Merkblatt S.2: <em>&bdquo;KfW-Mittel koennen zusaetzlich beantragt werden.&ldquo;</em></p></div>
+<div class="card green"><h4><a href="http://www.mikromezzaninfonds-deutschland.de/" target="_blank">Mikromezzanine</a> + <a href="https://www.nrwbank.de/de/foerderung/foerderprodukte/15119/nrwbank-gruendung-und-wachstum.html" target="_blank">GuW</a></h4><p>Verschiedene Traeger (KBG vs. NRW.BANK), verschiedene Finanzierungsarten. Kein Ausschluss im Merkblatt.</p></div>
+<div class="card green"><h4><a href="https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/arbeitslosengeld/gruendungszuschuss-beantragen" target="_blank">Gruendungszuschuss</a> + alles</h4><p>Sozialleistung SGB III &mdash; keine EU-Beihilfe, nicht De-minimis. Kollidiert mit keinem Programm.</p></div>
+<div class="card green"><h4><a href="https://www.zim.de" target="_blank">ZIM</a> (AGVO) + De-minimis</h4><p>ZIM = AGVO Art. 25. Kumulierung zulaessig (Art. 8 AGVO) bei getrennten Kostenpositionen.</p></div>
 </div>
 
-<div class="alert alert-red"><span class="alert-icon">&#10007;</span><div><strong>Einziger Ausschluss: KfW 365 + KfW 077.</strong> Merkblatt 365, S.2: <em>&bdquo;Kombination mit KfW-Produkten nur moeglich, wenn diese keine staatlichen Beihilfen enthalten.&ldquo;</em> KfW 077 enthaelt De-minimis. Loesung: KfW 365 ab Jahr 3 als 366.</div></div>
+<div class="alert alert-red"><span class="alert-icon">&#10007;</span><div><strong>Einziger Ausschluss: <a href="https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCndung-und-Nachfolge/F%C3%B6rderprodukte/ERP-F%C3%B6rderkredit-KMU-(365-366)/" target="_blank">KfW 365</a> + <a href="https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCndung-und-Nachfolge/F%C3%B6rderprodukte/ERP-F%C3%B6rderkredit-Gr%C3%BCndung-und-Nachfolge-(077)/" target="_blank">KfW 077</a>.</strong> Merkblatt 365, S.2: <em>&bdquo;Kombination mit KfW-Produkten nur moeglich, wenn diese keine staatlichen Beihilfen enthalten.&ldquo;</em> KfW 077 enthaelt De-minimis. Loesung: KfW 365 ab Jahr 3 als 366.</div></div>
 
 <h3>Kombinierbarkeitsmatrix</h3>
 <p style="font-size:.85em;"><strong>K</strong> = Kombinierbar &nbsp; <strong>D</strong> = De-minimis beachten &nbsp; <span style="color:var(--red);font-weight:700;">X = Ausschluss</span></p>
@@ -239,12 +275,12 @@ footer strong{color:#fff}
 <h3>De-minimis-Budget</h3>
 <div class="table-wrap"><table>
 <tr><th>Programm</th><th>Kredit/Zuschuss</th><th>Beihilfe-Typ</th><th>Beihilfewert (gesch.)</th></tr>
-<tr><td>KfW 077 (inkl. BB)</td><td>175.000 EUR</td><td>De-minimis</td><td>~20&ndash;30k</td></tr>
-<tr><td>NRW.BANK GuW</td><td>400.000 EUR</td><td>De-minimis</td><td>~40&ndash;70k</td></tr>
-<tr><td>BAFA</td><td>1.750 EUR</td><td>De-minimis</td><td>1.750 EUR</td></tr>
-<tr><td>MID</td><td>10.000 EUR</td><td>De-minimis</td><td>10.000 EUR</td></tr>
-<tr><td>INVEST</td><td>20.000 EUR</td><td>De-minimis</td><td>20.000 EUR</td></tr>
-<tr><td>Mikromezzanine</td><td>100.000 EUR</td><td>De-minimis (verm.)</td><td>~5&ndash;7k/Jahr</td></tr>
+<tr><td><a href="https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCndung-und-Nachfolge/F%C3%B6rderprodukte/ERP-F%C3%B6rderkredit-Gr%C3%BCndung-und-Nachfolge-(077)/" target="_blank">KfW 077</a> (inkl. <a href="https://www.bb-nrw.de/de/express-buergschaft.html" target="_blank">BB</a>)</td><td>175.000 EUR</td><td>De-minimis</td><td>~20–30k</td></tr>
+<tr><td><a href="https://www.nrwbank.de/de/foerderung/foerderprodukte/15119/nrwbank-gruendung-und-wachstum.html" target="_blank">NRW.BANK GuW</a></td><td>400.000 EUR</td><td>De-minimis</td><td>~40–70k</td></tr>
+<tr><td><a href="https://www.bafa.de/DE/Wirtschafts_Mittelstandsfoerderung/Beratung_Finanzierung/Unternehmensberatung/unternehmensberatung_node.html" target="_blank">BAFA</a></td><td>1.750 EUR</td><td>De-minimis</td><td>1.750 EUR</td></tr>
+<tr><td><a href="https://www.wirtschaft.nrw/mittelstand-innovativ-und-digital" target="_blank">MID</a></td><td>10.000 EUR</td><td>De-minimis</td><td>10.000 EUR</td></tr>
+<tr><td><a href="https://www.bafa.de/DE/Wirtschafts_Mittelstandsfoerderung/Beratung_Finanzierung/Invest/invest_node.html" target="_blank">INVEST</a></td><td>20.000 EUR</td><td>De-minimis</td><td>20.000 EUR</td></tr>
+<tr><td><a href="http://www.mikromezzaninfonds-deutschland.de/" target="_blank">Mikromezzanine</a></td><td>100.000 EUR</td><td>De-minimis (verm.)</td><td>~5–7k/Jahr</td></tr>
 <tr style="background:var(--navy);color:#fff"><td><strong>SUMME</strong></td><td></td><td></td><td><strong>~97&ndash;139k / 300k</strong></td></tr>
 </table></div>
 <div class="source">Quellen: <a href="https://www.kfw.de/PDF/Download-Center/F%C3%B6rderprogramme-(Inlandsf%C3%B6rderung)/PDF-Dokumente/6000004842_M_365.pdf" target="_blank">Merkblatt 365</a> | NRW.BANK GuW Merkblatt S.2 | <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32023R2831" target="_blank">VO (EU) 2023/2831</a> | <a href="https://eur-lex.europa.eu/legal-content/DE/TXT/?uri=CELEX:32014R0651" target="_blank">AGVO Art. 8</a></div>
@@ -258,29 +294,29 @@ footer strong{color:#fff}
 <tr><th>Schritt</th><th>Warum VOR Gruendung?</th><th>Quelle</th></tr>
 <tr><td><strong>1. Aufhebungsvertrag bioIP</strong></td><td>Voraussetzung fuer Arbeitslosmeldung ohne Sperrzeit</td><td>&sect; 159 SGB III</td></tr>
 <tr><td><strong>2. Arbeitslosmeldung</strong></td><td>Mind. 1 Tag ALG1-Bezug vor GruZu-Antrag</td><td><a href="https://www.arbeitsagentur.de/datei/dok_ba024940.pdf" target="_blank">FW GruZu</a></td></tr>
-<tr><td><strong>3. Gruendungszuschuss beantragen</strong></td><td>VOR Aufnahme der selbstaendigen Taetigkeit</td><td><a href="https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/arbeitslosengeld/gruendungszuschuss-beantragen" target="_blank">Arbeitsagentur</a></td></tr>
+<tr><td><strong>3. <a href="https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/arbeitslosengeld/gruendungszuschuss-beantragen" target="_blank">Gruendungszuschuss</a> beantragen</strong></td><td>VOR Aufnahme der selbstaendigen Taetigkeit</td><td><a href="https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/arbeitslosengeld/gruendungszuschuss-beantragen" target="_blank">Arbeitsagentur</a></td></tr>
 <tr><td><strong>4. IHK Tragfaehigkeitsgutachten</strong></td><td>Pflichtanlage zum GruZu-Antrag</td><td><a href="https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/arbeitslosengeld/gruendungszuschuss-beantragen" target="_blank">Arbeitsagentur</a></td></tr>
 </table></div>
 
 <h3>NACH der GmbH-Gruendung</h3>
 <div class="table-wrap"><table>
 <tr><th>Schritt</th><th>Warum NACH Gruendung?</th><th>Abhaengigkeit</th></tr>
-<tr><td><strong>5. BB NRW Express</strong></td><td>GmbH muss existieren</td><td>Voraussetzung fuer KfW + GuW</td></tr>
-<tr><td><strong>6. KfW 077 + GuW</strong></td><td>Antrag ueber Hausbank</td><td>BB NRW Buergschaft</td></tr>
-<tr><td><strong>7. Mikromezzanine</strong></td><td>Parallel oder kurz nach Gruendung</td><td>Unabhaengig</td></tr>
-<tr><td><strong>8. BAFA</strong></td><td>Antrag VOR Beratungsbeginn</td><td>GmbH</td></tr>
-<tr><td><strong>9. MID-Gutschein</strong></td><td>Losverfahren nach Gruendung</td><td>GmbH</td></tr>
-<tr><td><strong>10. ZIM-Antrag</strong></td><td>3&ndash;6 Mon. Bewilligung, Auszahlung 12&ndash;15 Mon.</td><td>GmbH + F&amp;E-Plan</td></tr>
+<tr><td><strong>5. <a href="https://www.bb-nrw.de/de/express-buergschaft.html" target="_blank">BB NRW</a> Express</strong></td><td>GmbH muss existieren</td><td>Voraussetzung fuer KfW + GuW</td></tr>
+<tr><td><strong>6. <a href="https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCndung-und-Nachfolge/F%C3%B6rderprodukte/ERP-F%C3%B6rderkredit-Gr%C3%BCndung-und-Nachfolge-(077)/" target="_blank">KfW 077</a> + <a href="https://www.nrwbank.de/de/foerderung/foerderprodukte/15119/nrwbank-gruendung-und-wachstum.html" target="_blank">GuW</a></strong></td><td>Antrag ueber Hausbank</td><td>BB NRW Buergschaft</td></tr>
+<tr><td><strong>7. <a href="http://www.mikromezzaninfonds-deutschland.de/" target="_blank">Mikromezzanine</a></strong></td><td>Parallel oder kurz nach Gruendung</td><td>Unabhaengig</td></tr>
+<tr><td><strong>8. <a href="https://www.bafa.de/DE/Wirtschafts_Mittelstandsfoerderung/Beratung_Finanzierung/Unternehmensberatung/unternehmensberatung_node.html" target="_blank">BAFA</a></strong></td><td>Antrag VOR Beratungsbeginn</td><td>GmbH</td></tr>
+<tr><td><strong>9. <a href="https://www.wirtschaft.nrw/mittelstand-innovativ-und-digital" target="_blank">MID</a>-Gutschein</strong></td><td>Losverfahren nach Gruendung</td><td>GmbH</td></tr>
+<tr><td><strong>10. <a href="https://www.zim.de" target="_blank">ZIM</a>-Antrag</strong></td><td>3–6 Mon. Bewilligung, Auszahlung 12–15 Mon.</td><td>GmbH + F&amp;E-Plan</td></tr>
 </table></div>
 <div class="source">Quellen: <a href="https://www.arbeitsagentur.de/datei/dok_ba024940.pdf" target="_blank">FW GruZu</a> | KfW Merkblatt 077 | NRW.BANK GuW Merkblatt | <a href="https://www.bb-nrw.de/de/express-buergschaft.html" target="_blank">BB NRW</a> | <a href="https://www.zim.de" target="_blank">ZIM</a></div>
 </div>
 
 <div class="section" id="konditionen"><h2>7. Konditionen im Detail</h2><div class="section-line"></div>
 <div class="cards">
-<div class="card"><h4>KfW 077</h4><table><tr><td>Programmnr.</td><td>077</td></tr><tr><td>Max.</td><td>500k (35%-Deckel &rarr; 175k)</td></tr><tr><td>Laufzeit</td><td>bis 15 Jahre, 5 tilgungsfrei</td></tr><tr><td>HF</td><td>100% ueber BB NRW</td></tr><tr><td>Beihilfe</td><td>De-minimis</td></tr></table><div class="source"><a href="https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCndung-und-Nachfolge/F%C3%B6rderprodukte/ERP-F%C3%B6rderkredit-Gr%C3%BCndung-und-Nachfolge-(077)/" target="_blank">KfW 077</a></div></div>
-<div class="card teal"><h4>NRW.BANK GuW</h4><table><tr><td>Programmnr.</td><td>60100</td></tr><tr><td>Max.</td><td>10 Mio. (wir: 400k)</td></tr><tr><td>Laufzeit</td><td>5/10/20 J., 1&ndash;3 tilgungsfrei</td></tr><tr><td>HF</td><td>50% ab 125k</td></tr><tr><td>Zins</td><td>RGZS A&ndash;I (3,39&ndash;10,30%)</td></tr><tr><td>Beihilfe</td><td>De-minimis</td></tr></table><div class="source"><a href="https://www.nrwbank.de/de/foerderung/foerderprodukte/15119/nrwbank-gruendung-und-wachstum.html" target="_blank">NRW.BANK GuW</a></div></div>
-<div class="card green"><h4>Mikromezzanine</h4><table><tr><td>Traeger</td><td>KBG NRW (BMWK)</td></tr><tr><td>Typ</td><td>Stille Beteiligung (EK-aehnlich)</td></tr><tr><td>Max.</td><td>100k (150k Sonderzielgr.)</td></tr><tr><td>Kosten</td><td>8% p.a. + 3,5% Gebuehr</td></tr><tr><td>Laufzeit</td><td>10 J., Rueckz. ab J.7</td></tr></table><div class="source"><a href="http://www.mikromezzaninfonds-deutschland.de/" target="_blank">Mikromezzaninfonds</a> | <a href="https://kbg-nrw.ermoeglicher.de/de/" target="_blank">KBG NRW</a></div></div>
-<div class="card amber"><h4>Gruendungszuschuss</h4><table><tr><td>Rechtsgrundl.</td><td>&sect; 93, 94 SGB III</td></tr><tr><td>Phase 1</td><td>6 Mon. ALG1+300&euro;</td></tr><tr><td>Phase 2</td><td>9 Mon. 300&euro; (optional)</td></tr><tr><td>Gesamt</td><td>~12&ndash;14k (steuerfrei)</td></tr><tr><td>De-minimis</td><td>NEIN (Sozialleistung)</td></tr><tr><td>Achtung</td><td>Ermessensleistung!</td></tr></table><div class="source"><a href="https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/arbeitslosengeld/gruendungszuschuss-beantragen" target="_blank">Arbeitsagentur</a> | <a href="https://www.arbeitsagentur.de/datei/dok_ba024940.pdf" target="_blank">FW (PDF)</a></div></div>
+<div class="card"><h4><a href="https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCndung-und-Nachfolge/F%C3%B6rderprodukte/ERP-F%C3%B6rderkredit-Gr%C3%BCndung-und-Nachfolge-(077)/" target="_blank">KfW 077</a></h4><table><tr><td>Programmnr.</td><td>077</td></tr><tr><td>Max.</td><td>500k (35%-Deckel &rarr; 175k)</td></tr><tr><td>Laufzeit</td><td>bis 15 Jahre, 5 tilgungsfrei</td></tr><tr><td>HF</td><td>100% ueber BB NRW</td></tr><tr><td>Beihilfe</td><td>De-minimis</td></tr></table><div class="source"><a href="https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCndung-und-Nachfolge/F%C3%B6rderprodukte/ERP-F%C3%B6rderkredit-Gr%C3%BCndung-und-Nachfolge-(077)/" target="_blank">KfW 077</a></div></div>
+<div class="card teal"><h4><a href="https://www.nrwbank.de/de/foerderung/foerderprodukte/15119/nrwbank-gruendung-und-wachstum.html" target="_blank">NRW.BANK GuW</a></h4><table><tr><td>Programmnr.</td><td>60100</td></tr><tr><td>Max.</td><td>10 Mio. (wir: 400k)</td></tr><tr><td>Laufzeit</td><td>5/10/20 J., 1&ndash;3 tilgungsfrei</td></tr><tr><td>HF</td><td>50% ab 125k</td></tr><tr><td>Zins</td><td>RGZS A&ndash;I (3,39&ndash;10,30%)</td></tr><tr><td>Beihilfe</td><td>De-minimis</td></tr></table><div class="source"><a href="https://www.nrwbank.de/de/foerderung/foerderprodukte/15119/nrwbank-gruendung-und-wachstum.html" target="_blank">NRW.BANK GuW</a></div></div>
+<div class="card green"><h4><a href="http://www.mikromezzaninfonds-deutschland.de/" target="_blank">Mikromezzanine</a></h4><table><tr><td>Traeger</td><td>KBG NRW (BMWK)</td></tr><tr><td>Typ</td><td>Stille Beteiligung (EK-aehnlich)</td></tr><tr><td>Max.</td><td>100k (150k Sonderzielgr.)</td></tr><tr><td>Kosten</td><td>8% p.a. + 3,5% Gebuehr</td></tr><tr><td>Laufzeit</td><td>10 J., Rueckz. ab J.7</td></tr></table><div class="source"><a href="http://www.mikromezzaninfonds-deutschland.de/" target="_blank">Mikromezzaninfonds</a> | <a href="https://kbg-nrw.ermoeglicher.de/de/" target="_blank">KBG NRW</a></div></div>
+<div class="card amber"><h4><a href="https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/arbeitslosengeld/gruendungszuschuss-beantragen" target="_blank">Gruendungszuschuss</a></h4><table><tr><td>Rechtsgrundl.</td><td>&sect; 93, 94 SGB III</td></tr><tr><td>Phase 1</td><td>6 Mon. ALG1+300&euro;</td></tr><tr><td>Phase 2</td><td>9 Mon. 300&euro; (optional)</td></tr><tr><td>Gesamt</td><td>~12&ndash;14k (steuerfrei)</td></tr><tr><td>De-minimis</td><td>NEIN (Sozialleistung)</td></tr><tr><td>Achtung</td><td>Ermessensleistung!</td></tr></table><div class="source"><a href="https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/arbeitslosengeld/gruendungszuschuss-beantragen" target="_blank">Arbeitsagentur</a> | <a href="https://www.arbeitsagentur.de/datei/dok_ba024940.pdf" target="_blank">FW (PDF)</a></div></div>
 </div></div>
 
 <div class="section" id="finanzierung"><h2>8. Finanzierung bei Gruendung</h2><div class="section-line"></div>
@@ -290,29 +326,29 @@ footer strong{color:#fff}
 <div class="bar" style="height:140px;background:var(--blue)"><span class="amount">175k</span><span class="label">KfW 077</span></div>
 <div class="bar" style="height:260px;background:var(--sky)"><span class="amount">400k</span><span class="label">NRW.BANK GuW</span></div>
 <div class="bar" style="height:25px;background:var(--amber)"><span class="amount">24k</span><span class="label">Zueschuesse</span></div>
-<div class="total">= ~824k</div>
+<div class="total">= ~800–850k</div>
 </div>
 <div class="table-wrap"><table>
 <tr><th>Posten</th><th>Betrag</th><th>Typ</th><th>Verfuegbar</th></tr>
 <tr><td>Eigenkapital Percy</td><td><strong>100.000 EUR</strong></td><td>EK (fix)</td><td>Aug 2026</td></tr>
-<tr><td>Mikromezzanine <span class="badge b-green">NEU</span></td><td><strong>100&ndash;150k</strong></td><td>EK-aehnlich</td><td>Sep 2026</td></tr>
-<tr><td>KfW 077</td><td><strong>175.000 EUR</strong></td><td>Darlehen</td><td>Nov 2026</td></tr>
-<tr><td>NRW.BANK GuW</td><td><strong>400.000 EUR</strong></td><td>Darlehen</td><td>Nov 2026</td></tr>
-<tr><td>Gruendungszuschuss <span class="badge b-green">NEU</span></td><td><strong>12&ndash;14k</strong></td><td>Zuschuss</td><td>Jun/Jul 2026</td></tr>
-<tr><td>BAFA + MID</td><td><strong>~12k</strong></td><td>Zuschuss</td><td>Sep 2026</td></tr>
-<tr><td>BB NRW</td><td>(250k Buergschaft)</td><td>Sicherheit</td><td>Sep 2026</td></tr>
-<tr style="background:var(--navy);color:#fff"><td><strong>SUMME LIQUIDE</strong></td><td><strong>~799&ndash;851k</strong></td><td></td><td><strong>Nov 2026</strong></td></tr>
+<tr><td><a href="http://www.mikromezzaninfonds-deutschland.de/" target="_blank">Mikromezzanine</a> <span class="badge b-green">NEU</span></td><td><strong>100.000–150.000 EUR</strong></td><td>EK-aehnlich</td><td>Sep 2026</td></tr>
+<tr><td><a href="https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCndung-und-Nachfolge/F%C3%B6rderprodukte/ERP-F%C3%B6rderkredit-Gr%C3%BCndung-und-Nachfolge-(077)/" target="_blank">KfW 077</a></td><td><strong>175.000 EUR</strong></td><td>Darlehen</td><td>Nov 2026</td></tr>
+<tr><td><a href="https://www.nrwbank.de/de/foerderung/foerderprodukte/15119/nrwbank-gruendung-und-wachstum.html" target="_blank">NRW.BANK GuW</a></td><td><strong>400.000 EUR</strong></td><td>Darlehen</td><td>Nov 2026</td></tr>
+<tr><td><a href="https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/arbeitslosengeld/gruendungszuschuss-beantragen" target="_blank">Gruendungszuschuss</a> <span class="badge b-green">NEU</span></td><td><strong>~12.000–14.000 EUR</strong></td><td>Zuschuss</td><td>Jun/Jul 2026</td></tr>
+<tr><td><a href="https://www.bafa.de/DE/Wirtschafts_Mittelstandsfoerderung/Beratung_Finanzierung/Unternehmensberatung/unternehmensberatung_node.html" target="_blank">BAFA</a> + <a href="https://www.wirtschaft.nrw/mittelstand-innovativ-und-digital" target="_blank">MID</a></td><td><strong>~12.000 EUR</strong></td><td>Zuschuss</td><td>Sep 2026</td></tr>
+<tr><td><a href="https://www.bb-nrw.de/de/express-buergschaft.html" target="_blank">BB NRW</a></td><td>(250k Buergschaft)</td><td>Sicherheit</td><td>Sep 2026</td></tr>
+<tr style="background:var(--navy);color:#fff"><td><strong>SUMME LIQUIDE</strong></td><td><strong>~799.000–851.000 EUR</strong></td><td></td><td><strong>Nov 2026</strong></td></tr>
 </table></div>
-<div class="alert alert-blue"><span class="alert-icon">&#8593;</span><div>Fallback (ohne neue Programme) = ~687k. <strong>Optimiert = ~824k (+137k).</strong></div></div>
+<div class="alert alert-blue"><span class="alert-icon">&#8593;</span><div>Fallback (ohne neue Programme) = ~687k. <strong>Optimiert = ~799–851k (+112–164k).</strong> Nach 12 Monaten (+ZIM): <strong>~1.109–1.161k.</strong></div></div>
 </div>
 
 <div class="section" id="zeitplan"><h2>9. Zeitplan</h2><div class="section-line"></div>
 <div class="timeline">
-<div class="tl-item"><div class="tl-dot" style="background:var(--blue);box-shadow:0 0 0 2px var(--blue)"></div><div class="tl-period" style="color:var(--blue)">April&ndash;Mai 2026 &mdash; Vorbereitung</div><div class="tl-items">&rarr; Aufhebungsvertrag bioIP<br>&rarr; IHK Koeln Gruenderberatung<br>&rarr; KBG NRW kontaktieren (Mikromezzanine)<br>&rarr; KSK Koeln Erstgespraech<br>&rarr; Businessplan Kap. 1&ndash;3</div></div>
-<div class="tl-item"><div class="tl-dot" style="background:var(--green);box-shadow:0 0 0 2px var(--green)"></div><div class="tl-period" style="color:var(--green)">Juni&ndash;Juli 2026 &mdash; Antraege</div><div class="tl-items">&rarr; Arbeitslosmeldung Agentur Bonn<br>&rarr; Gruendungszuschuss beantragen<br>&rarr; Mikromezzanine-Antrag (KBG)<br>&rarr; KfW 077 + GuW vorbereiten</div></div>
-<div class="tl-item"><div class="tl-dot" style="background:var(--amber);box-shadow:0 0 0 2px var(--amber)"></div><div class="tl-period" style="color:var(--amber)">August 2026 &mdash; GRUENDUNG</div><div class="tl-items">&rarr; GmbH beim Notar<br>&rarr; 100k EK einzahlen<br>&rarr; BAFA beantragen<br>&rarr; MID Losverfahren</div></div>
-<div class="tl-item"><div class="tl-dot" style="background:var(--purple);box-shadow:0 0 0 2px var(--purple)"></div><div class="tl-period" style="color:var(--purple)">Sep&ndash;Nov 2026 &mdash; Auszahlungen</div><div class="tl-items">&rarr; KfW 077: ~175k<br>&rarr; NRW.BANK GuW: ~400k<br>&rarr; Mikromezzanine: ~100&ndash;150k<br><strong>&rarr; ~800&ndash;850k auf dem GmbH-Konto</strong></div></div>
-<div class="tl-item"><div class="tl-dot" style="background:var(--navy);box-shadow:0 0 0 2px var(--navy)"></div><div class="tl-period" style="color:var(--navy)">2027+ &mdash; Wachstum</div><div class="tl-items">&rarr; ZIM: ~310k Zuschuss<br>&rarr; Erste Umsaetze: 50&ndash;100k<br>&rarr; Optional: Angel + INVEST + SeedCap<br><strong>&rarr; ~1,1&ndash;1,3 Mio. nach 12 Monaten</strong></div></div>
+<div class="tl-item"><div class="tl-dot" style="background:var(--blue);box-shadow:0 0 0 2px var(--blue)"></div><div class="tl-period" style="color:var(--blue)">April&ndash;Mai 2026 &mdash; Vorbereitung</div><div class="tl-items">&rarr; Aufhebungsvertrag bioIP<br>&rarr; IHK Koeln Gruenderberatung<br>&rarr; <a href="https://kbg-nrw.ermoeglicher.de/de/" target="_blank">KBG NRW</a> kontaktieren (<a href="http://www.mikromezzaninfonds-deutschland.de/" target="_blank">Mikromezzanine</a>)<br>&rarr; KSK Koeln Erstgespraech<br>&rarr; Businessplan Kap. 1&ndash;3</div></div>
+<div class="tl-item"><div class="tl-dot" style="background:var(--green);box-shadow:0 0 0 2px var(--green)"></div><div class="tl-period" style="color:var(--green)">Juni&ndash;Juli 2026 &mdash; Antraege</div><div class="tl-items">&rarr; Arbeitslosmeldung Agentur Bonn<br>&rarr; <a href="https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/arbeitslosengeld/gruendungszuschuss-beantragen" target="_blank">Gruendungszuschuss</a> beantragen<br>&rarr; <a href="http://www.mikromezzaninfonds-deutschland.de/" target="_blank">Mikromezzanine</a>-Antrag (KBG)<br>&rarr; <a href="https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCndung-und-Nachfolge/F%C3%B6rderprodukte/ERP-F%C3%B6rderkredit-Gr%C3%BCndung-und-Nachfolge-(077)/" target="_blank">KfW 077</a> + <a href="https://www.nrwbank.de/de/foerderung/foerderprodukte/15119/nrwbank-gruendung-und-wachstum.html" target="_blank">GuW</a> vorbereiten</div></div>
+<div class="tl-item"><div class="tl-dot" style="background:var(--amber);box-shadow:0 0 0 2px var(--amber)"></div><div class="tl-period" style="color:var(--amber)">August 2026 &mdash; GRUENDUNG</div><div class="tl-items">&rarr; GmbH beim Notar<br>&rarr; 100k EK einzahlen<br>&rarr; <a href="https://www.bafa.de/DE/Wirtschafts_Mittelstandsfoerderung/Beratung_Finanzierung/Unternehmensberatung/unternehmensberatung_node.html" target="_blank">BAFA</a> beantragen<br>&rarr; <a href="https://www.wirtschaft.nrw/mittelstand-innovativ-und-digital" target="_blank">MID</a> Losverfahren</div></div>
+<div class="tl-item"><div class="tl-dot" style="background:var(--purple);box-shadow:0 0 0 2px var(--purple)"></div><div class="tl-period" style="color:var(--purple)">Sep&ndash;Nov 2026 &mdash; Auszahlungen</div><div class="tl-items">&rarr; <a href="https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCndung-und-Nachfolge/F%C3%B6rderprodukte/ERP-F%C3%B6rderkredit-Gr%C3%BCndung-und-Nachfolge-(077)/" target="_blank">KfW 077</a>: ~175k<br>&rarr; <a href="https://www.nrwbank.de/de/foerderung/foerderprodukte/15119/nrwbank-gruendung-und-wachstum.html" target="_blank">NRW.BANK GuW</a>: ~400k<br>&rarr; <a href="http://www.mikromezzaninfonds-deutschland.de/" target="_blank">Mikromezzanine</a>: ~100–150k<br><strong>&rarr; ~800&ndash;850k auf dem GmbH-Konto</strong></div></div>
+<div class="tl-item"><div class="tl-dot" style="background:var(--navy);box-shadow:0 0 0 2px var(--navy)"></div><div class="tl-period" style="color:var(--navy)">2027+ &mdash; Wachstum</div><div class="tl-items">&rarr; <a href="https://www.zim.de" target="_blank">ZIM</a>: ~310k Zuschuss<br>&rarr; Erste Umsaetze: 50–100k<br>&rarr; Optional: Angel + <a href="https://www.bafa.de/DE/Wirtschafts_Mittelstandsfoerderung/Beratung_Finanzierung/Invest/invest_node.html" target="_blank">INVEST</a> + <a href="https://www.nrwbank.de/de/foerderung/foerderprodukte/15193/nrwbank-seedcap-digitale-wirtschaft.html" target="_blank">SeedCap</a><br><strong>&rarr; ~1,1–1,2 Mio. nach 12 Monaten</strong></div></div>
 </div></div>
 
 <!-- GESCHAEFTSMODELL -->
@@ -369,6 +405,8 @@ footer strong{color:#fff}
 </table></div>
 <div class="alert alert-amber"><span class="alert-icon">&#9888;</span><div><strong>Break-even operativ (EBITDA) in Q3 2029.</strong> Das Unternehmen braucht ausreichend Runway fuer ~3 Jahre Verlustphase. Genau dafuer ist die Foerderstruktur ausgelegt.</div></div>
 
+<div class="alert alert-red"><span class="alert-icon">&#128176;</span><div><strong>Kumulierter Verlust ueber 3 Jahre: ~1,08 Mio. EUR.</strong> Das erklaert, warum ~800k Startkapital + 310k ZIM-Zuschuss noetig sind. Ohne diese Kombination reicht der Runway nicht bis zum Break-even.</div></div>
+
 <div class="source">Quelle: Finanzplan_3_Jahre_Entwurf.md (Stand 09.04.2026). Alle Annahmen muessen von Percy validiert werden. ARPU-Referenzen: Recherche_Marktanalyse.md, Recherche_Wettbewerb.md.</div>
 </div>
 
@@ -378,9 +416,9 @@ footer strong{color:#fff}
 <h3>Darlehens-Uebersicht (optimiertes Modell v2.0)</h3>
 <div class="table-wrap"><table>
 <tr><th>Darlehen</th><th>Betrag</th><th>Zinssatz</th><th>Laufzeit</th><th>Tilgungsfrei</th><th>Tilgung beginnt</th><th>Annuitaet (gesch.)</th></tr>
-<tr><td><strong>KfW 077</strong></td><td>175.000 EUR</td><td>~4,0% p.a.</td><td>15 Jahre</td><td>5 Jahre</td><td>Nov 2031</td><td>~2.100 EUR/Mon.</td></tr>
-<tr><td><strong>NRW.BANK GuW</strong></td><td>400.000 EUR</td><td>~4,5% p.a.</td><td>10 Jahre</td><td>2 Jahre</td><td>Nov 2028</td><td>~5.800 EUR/Mon.</td></tr>
-<tr><td><strong>Mikromezzanine</strong></td><td>125.000 EUR</td><td>8,0% p.a.</td><td>10 Jahre</td><td>6 Jahre</td><td>2032 (3 Raten)</td><td>~41.700 EUR/Jahr</td></tr>
+<tr><td><strong><a href="https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCndung-und-Nachfolge/F%C3%B6rderprodukte/ERP-F%C3%B6rderkredit-Gr%C3%BCndung-und-Nachfolge-(077)/" target="_blank">KfW 077</a></strong></td><td>175.000 EUR</td><td>~4,0% p.a.</td><td>15 Jahre</td><td>5 Jahre</td><td>Nov 2031</td><td>~2.100 EUR/Mon.</td></tr>
+<tr><td><strong><a href="https://www.nrwbank.de/de/foerderung/foerderprodukte/15119/nrwbank-gruendung-und-wachstum.html" target="_blank">NRW.BANK GuW</a></strong></td><td>400.000 EUR</td><td>~4,5% p.a.</td><td>10 Jahre</td><td>2 Jahre</td><td>Nov 2028</td><td>~5.800 EUR/Mon.</td></tr>
+<tr><td><strong><a href="http://www.mikromezzaninfonds-deutschland.de/" target="_blank">Mikromezzanine</a></strong></td><td>125.000 EUR</td><td>8,0% p.a. Verguetung</td><td>10 Jahre</td><td>Rueckzahlung ab J.7</td><td>2032 (3 Raten)</td><td>~41.700 EUR/Jahr</td></tr>
 </table></div>
 
 <h3>Jaehrlicher Kapitaldienst</h3>
@@ -451,16 +489,16 @@ footer strong{color:#fff}
 
 <div class="section" id="szenarien"><h2>13. Szenarien</h2><div class="section-line"></div>
 <div class="scenarios">
-<div class="scenario"><h4 style="color:var(--slate400)">Fallback</h4><div class="big-num gray">~687k</div><ul><li>100k EK</li><li>175k KfW 077</li><li>400k GuW</li><li>12k Zueschuesse</li></ul></div>
-<div class="scenario rec"><h4 style="color:var(--green)">Optimiert &#9733;</h4><div class="big-num green">~824k</div><ul><li>+125k Mezzanine</li><li>+12k GruZu</li><li>EK-Basis verdoppelt</li></ul></div>
-<div class="scenario" style="border-top-color:var(--blue)"><h4 style="color:var(--blue)">Nach 12 Mon.</h4><div class="big-num blue">~1,14M</div><ul><li>+310k ZIM</li><li>+50&ndash;100k Umsaetze</li></ul></div>
-<div class="scenario" style="border-top-color:var(--purple)"><h4 style="color:var(--purple)">Mit Investor</h4><div class="big-num purple">~1,7&ndash;2M</div><ul><li>+200&ndash;333k Angel</li><li>+30&ndash;50k INVEST</li><li>+bis 500k SeedCap</li></ul></div>
+<div class="scenario"><h4 style="color:var(--slate400)">Fallback</h4><div class="big-num gray">~687k</div><ul><li>100k EK</li><li>175k <a href="https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCndung-und-Nachfolge/F%C3%B6rderprodukte/ERP-F%C3%B6rderkredit-Gr%C3%BCndung-und-Nachfolge-(077)/" target="_blank">KfW 077</a></li><li>400k <a href="https://www.nrwbank.de/de/foerderung/foerderprodukte/15119/nrwbank-gruendung-und-wachstum.html" target="_blank">GuW</a></li><li>12k Zueschuesse</li></ul></div>
+<div class="scenario rec"><h4 style="color:var(--green)">Optimiert &#9733;</h4><div class="big-num green">~800–850k</div><ul><li>+100–150k <a href="http://www.mikromezzaninfonds-deutschland.de/" target="_blank">Mezzanine</a></li><li>+12–14k <a href="https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/arbeitslosengeld/gruendungszuschuss-beantragen" target="_blank">GruZu</a></li><li>EK-Basis verdoppelt</li></ul></div>
+<div class="scenario" style="border-top-color:var(--blue)"><h4 style="color:var(--blue)">Nach 12 Mon.</h4><div class="big-num blue">~1,1–1,2M</div><ul><li>+310k <a href="https://www.zim.de" target="_blank">ZIM</a></li><li>+50–100k Umsaetze</li></ul></div>
+<div class="scenario" style="border-top-color:var(--purple)"><h4 style="color:var(--purple)">Mit Investor</h4><div class="big-num purple">~1,7&ndash;2M</div><ul><li>+200&ndash;333k Angel</li><li>+30–50k <a href="https://www.bafa.de/DE/Wirtschafts_Mittelstandsfoerderung/Beratung_Finanzierung/Invest/invest_node.html" target="_blank">INVEST</a></li><li>+bis 500k <a href="https://www.nrwbank.de/de/foerderung/foerderprodukte/15193/nrwbank-seedcap-digitale-wirtschaft.html" target="_blank">SeedCap</a></li></ul></div>
 </div></div>
 
 <div class="section" id="status"><h2>14. Status &amp; Naechste Schritte</h2><div class="section-line"></div>
 <div class="cards">
 <div class="card green"><h4>Erledigt</h4><ul><li>19 Checkpoints, 17 QS-Pruefungen</li><li>5 CV-Versionen (QS 8,85/10)</li><li>20+ Programme recherchiert</li><li>11 aktive kombiniert &amp; verifiziert</li><li>Kombinierbarkeitsmatrix erstellt</li><li>De-minimis berechnet</li><li>Alles auf Drive Shared Drive</li><li>8 E-Mail-Entwuerfe</li><li>Businessplan-Gliederung</li><li>Finanzplan-Templates</li><li>GmbH-Checkliste</li></ul></div>
-<div class="card amber"><h4>Naechste Schritte</h4><p><span class="badge b-red">SOFORT</span> April/Mai</p><ul><li>Aufhebungsvertrag bioIP</li><li>KBG NRW (Mikromezzanine)</li><li>IHK Koeln Beratung</li><li>KSK Koeln Erstgespraech</li></ul><p style="margin-top:.8em"><span class="badge b-amber">KURZFRISTIG</span> Mai/Juni</p><ul><li>Businessplan Kap. 1&ndash;3</li><li>Finanzplan aktualisieren</li><li>Arbeitslosmeldung &rarr; GruZu</li></ul><p style="margin-top:.8em"><span class="badge b-blue">MITTELFRISTIG</span> Jul/Aug</p><ul><li>GmbH-Gruendung</li><li>KfW 077 + GuW beantragen</li><li>ZIM-Antrag vorbereiten</li></ul></div>
+<div class="card amber"><h4>Naechste Schritte</h4><p><span class="badge b-red">SOFORT</span> April/Mai</p><ul><li>Aufhebungsvertrag bioIP</li><li><a href="https://kbg-nrw.ermoeglicher.de/de/" target="_blank">KBG NRW</a> (<a href="http://www.mikromezzaninfonds-deutschland.de/" target="_blank">Mikromezzanine</a>)</li><li>IHK Koeln Beratung</li><li>KSK Koeln Erstgespraech</li></ul><p style="margin-top:.8em"><span class="badge b-amber">KURZFRISTIG</span> Mai/Juni</p><ul><li>Businessplan Kap. 1&ndash;3</li><li>Finanzplan aktualisieren</li><li>Arbeitslosmeldung &rarr; <a href="https://www.arbeitsagentur.de/arbeitslos-arbeit-finden/arbeitslosengeld/gruendungszuschuss-beantragen" target="_blank">GruZu</a></li></ul><p style="margin-top:.8em"><span class="badge b-blue">MITTELFRISTIG</span> Jul/Aug</p><ul><li>GmbH-Gruendung</li><li><a href="https://www.kfw.de/inlandsfoerderung/Unternehmen/Gr%C3%BCndung-und-Nachfolge/F%C3%B6rderprodukte/ERP-F%C3%B6rderkredit-Gr%C3%BCndung-und-Nachfolge-(077)/" target="_blank">KfW 077</a> + <a href="https://www.nrwbank.de/de/foerderung/foerderprodukte/15119/nrwbank-gruendung-und-wachstum.html" target="_blank">GuW</a> beantragen</li><li><a href="https://www.zim.de" target="_blank">ZIM</a>-Antrag vorbereiten</li></ul></div>
 </div></div>
 
 <div class="section" id="quellen"><h2>15. Quellenverzeichnis</h2><div class="section-line"></div>
